@@ -1,6 +1,6 @@
 [profile.default]
-src = "src"
-out = "out"
-libs = ["lib"]
-
+src = "src"   # Dossier source des contrats
+out = "out"    # Dossier de sortie pour les artefacts compilés
+libs = ["lib"]    # Dossier pour les bibliothèques externes
+solc_version = "0.8.20" # Version du compilateur Solidity
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
